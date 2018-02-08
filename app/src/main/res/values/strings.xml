@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Shopping List</string>
+    <string name="enter_list_name">Enter new list name</string>
+    <string name="add">Add</string>
+    <string name="cancel">Cancel</string>
+    <string name="menu_archive">Archive</string>
+    <string name="menu_current">Current</string>
+    <string name="move_to_archive">Move to archive</string>
+    <string name="move_to_current">Move to current</string>
+    <string name="title_empty_view">The list is empty</string>
+    <string name="description_empty_view">Nothing to display</string>
+    <string name="empty_archive_description">You can add your current lists here</string>
+    <string name="empty_archive_title">Archive is empty</string>
+    <string name="empty_current_description">Click + to add new one!</string>
+    <string name="empty_current_title">You have no shopping list</string>
+    <string name="empty_shopping_list_title">Shopping list is empty</string>
+    <string name="empty_shopping_list_description">Let\'s add something!</string>
+
+    <string-array name="options_shopping_list">
+        <item>@string/move_to_archive</item>
+    </string-array>
+
+    <string-array name="options_shopping_list_archived">
+        <item>@string/move_to_current</item>
+    </string-array>
+
+    <string-array name="options_list_element">
+        <item>Delete</item>
+    </string-array>
+
+</resources>
